@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+
+.global-nav {
+    background-color: lightseagreen;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    color: #333333;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+.nav-list .active,
+.nav-list a:hover {
+    background-color: dodgerblue;
+}
+
+
+/* h1 {
+	color: midnightblue;
+	font-family: Arial;
+}
+
+h2 {
+	color: darkblue;
+	font-family: Arial;
+}
+
+p {
+	color: black;
+	font-size: 14pt;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+} */
+
+/* unvisited link */
+/* a:link {
+	color: cornflowerblue;
+} */
+
+/* visited link */
+/* a:visited {
+	color: #FFEF10;
+} */
+
+/* hover over link */
+/* a:hover {
+	color: aqua;
+} */

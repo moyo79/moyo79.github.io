@@ -1,0 +1,30 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ccc;
+}
+
+.nav .highlight {
+    color: white;
+}
+
+.content div {
+    border-bottom: 1px solid black;
+}
+
+.one {
+    height: 400px;
+}
+
+.two {
+    height: 500px;
+}
+
+.three {
+    height: 600px;
+}
+
+.four {
+    height: 700px;
+}

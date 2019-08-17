@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+
+.global-nav {
+    background-color: lightseagreen;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    color: #333333;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+.nav-list .active,
+.nav-list a:hover {
+    background-color: dodgerblue;
+}
